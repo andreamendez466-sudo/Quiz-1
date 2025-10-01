@@ -74,7 +74,7 @@ class Program
             }
 
             // Continuar o salir
-            Console.Write("¿Desea registrar otro empleado? (si/no): ");
+            Console.Write("¿Desea registrar otro empleado? (SI/NO o si/no): ");
             continuar = Console.ReadLine();
         }
 
@@ -111,7 +111,7 @@ class Program
             case 2: return salarioOrdinario * 0.10; // Técnico
             case 3: return salarioOrdinario * 0.05; // Profesional
             default:
-                Console.WriteLine("Tipo de empleado inválido, por favor ingrese un tipo d empleado válido.");
+                Console.WriteLine("Tipo de empleado inválido.");
 
                 return 0;
         }
